@@ -1,5 +1,10 @@
 public class App {
+    @SuppressWarnings("unused")
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        byte numero1=100;
+        short numero2=numero1;
+        numero1=(byte) numero2;
+        System.out.println(numero1);
+        System.out.println(numero2);
     }
 }
